@@ -1,0 +1,2 @@
+rootProject.name='CoVIDIA'
+include ':app'
