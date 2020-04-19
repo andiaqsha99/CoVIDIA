@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CoVIDIA</string>
+    <string name="dengue">DENGUE</string>
+    <string name="covid_19">COVID-19</string>
 </resources>
