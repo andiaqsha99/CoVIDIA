@@ -7,7 +7,7 @@
     android:background="@drawable/background_1"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context=".DengueActivity">
+    tools:context=".dengue.DengueActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
