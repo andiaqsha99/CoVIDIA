@@ -20,6 +20,7 @@
         <activity android:name=".dengue.DengueActivity"/>
         <activity android:name=".covid.CovidActivity" />
         <activity android:name=".HomeActivity"/>
+        <activity android:name=".GroupActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

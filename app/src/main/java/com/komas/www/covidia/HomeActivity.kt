@@ -18,6 +18,7 @@ class HomeActivity: AppCompatActivity(), View.OnClickListener {
         btn_dengue.setOnClickListener(this)
         iv_covid.setOnClickListener (this)
         iv_dengue.setOnClickListener(this)
+        btn_group.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -35,6 +36,9 @@ class HomeActivity: AppCompatActivity(), View.OnClickListener {
             }
             R.id.iv_dengue -> {
                 startActivity(intentDengue)
+            }
+            R.id.btn_group -> {
+                startActivity(Intent(this, GroupActivity::class.java))
             }
         }
     }
