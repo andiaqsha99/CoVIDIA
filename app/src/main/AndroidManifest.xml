@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dengue.PenyebabDengueActivity"></activity>
+        <activity android:name=".dengue.PenyebabDengueActivity"/>
         <activity android:name=".dengue.PengobatanDengueActivity" />
         <activity android:name=".dengue.PencegahanDengueActivity" />
         <activity android:name=".dengue.CallDengueActivity" />
@@ -17,15 +17,16 @@
         <activity android:name=".covid.PencegahanCovidActivity" />
         <activity android:name=".covid.PenyebabCovidActivity" />
         <activity android:name=".covid.PengobatanCovidActivity" />
-        <activity android:name=".dengue.DengueActivity">
+        <activity android:name=".dengue.DengueActivity"/>
+        <activity android:name=".covid.CovidActivity" />
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".covid.CovidActivity" />
-        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
