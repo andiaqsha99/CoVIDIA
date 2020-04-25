@@ -12,7 +12,7 @@ class PenyebabCovidActivity : AppCompatActivity() {
         setContentView(R.layout.activity_penyebab_covid)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        tv_title_toolbar.text = "Pengobatan"
+        tv_title_toolbar.text = "Penyebab"
     }
 
     override fun onSupportNavigateUp(): Boolean {
