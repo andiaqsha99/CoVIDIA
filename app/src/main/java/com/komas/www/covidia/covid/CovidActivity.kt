@@ -17,7 +17,7 @@ class CovidActivity : AppCompatActivity() {
             startActivity(Intent(this, CallCovidActivity::class.java))
         }
         iv_data.setOnClickListener{
-
+            startActivity(Intent(this, DataCovidActivity::class.java))
         }
         iv_pencegahan.setOnClickListener{
             startActivity(Intent(this, PencegahanCovidActivity::class.java))
