@@ -6,10 +6,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:id="@+id/tv_title_toolbar"
+        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Title"
-        android:textSize="36sp"
         android:textAlignment="textEnd"
         android:textColor="@color/colorAccent"
         android:fontFamily="@font/verdanab"
