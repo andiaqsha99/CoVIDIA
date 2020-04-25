@@ -2,4 +2,95 @@
     <string name="app_name">CoVIDIA</string>
     <string name="dengue">DENGUE</string>
     <string name="covid_19">COVID-19</string>
+    <string name="penyebab_dbd">Demam berdarah dengue (DBD) adalah penyakit menular yang disebabkan oleh salah satu dari empat virus dengue.
+        \nVirus ini dibawa oleh nyamuk Aedes aegypti dan Aedes albocpictus. Kedua nyamuk dapat menggigit di pagi hari sampai sore menjelang petang.
+        \nPenularan terjadi saat nyamuk menggigit dan menghisap darah seseorang yang sudah terinfeksi virus dengue, ketika nyamuk tersebut mengigit orang lain, maka virus akan tersebar.
+        \nHal tersebut terjadi karena nyamuk berperan sebagai medium pembawa (carrier) virus dengue tersebut
+Demam berdarah dapat dipicu oleh faktor risiko tertentu. \nBeberapa faktor risiko demam berdarah, yaitu:\n
+\t\t•	Pernah mengalami infeksi virus dengue sebelumnya.\n
+\t\t•	Tinggal atau bepergian ke daerah tropis.\n
+\t\t•	Bayi, anak-anak, orang lanjut usia, dan orang dengan kekebalan tubuh yang lemah.\nPada umumnya, gejala yang disebabkan oleh DBD akan timbul 4-7 hari sejak gigitan nyamuk, dan dapat berlangsung selama 10 hari.\nBeberapa gejala demam berdarah dibedakan menjadi dua tingkat, yakni tingkat awal dan tingkat parah, yaitu:\nTingkat awal:\n
+\t\t•	Demam tinggi mencapai 40 derajat Celsius.\n
+\t\t•	Nyeri kepala berat.\n
+\t\t•	Nyeri pada sendi, otot, dan tulang (DBD sebagai penyakit “break-bone”).\n
+\t\t•	Nyeri pada bagian belakang mata.\n
+\t\t•	Nafsu makan menurun.\n
+\t\t•	Mual dan muntah.\n
+\t\t•	Pembengkakan kelenjar getah bening.\n
+\t\t•	Ruam kemerahan sekitar 2-5 hari setelah demam.\nTingkat parah (sebagai dengue hemorrhagic fever (demam dengue)):\n
+\t\t•	Kerusakan pada pembuluh darah dan getah bening.\n
+\t\t•	Penurunan tekanan darah secara tiba-tiba (shock).\n
+\t\t•	Perdarahan dari hidung, gusi, atau di bawah kulit.\n
+\t\t•	Menyebabkan kematian apabila gejalanya sudah terbilang parah.\n
+Apabila demam berdarah terlambat untuk ditangani, maka komplikasi akan terjadi.\nKomplikasi demam berdarah atau dengue shock syndrome (DSS) memiliki beberapa gejala dan tanda, yaitu:\n
+\t\t•	Kerusakan pada pembuluh darah dan kelenjar getah bening.\n
+\t\t•	Tanda perdarahan, seperti mimisan, gusi berdarah, perdarahan di bawah kulit, muntah hitam, batuk darah, maupun buang air besar dengan feses kehitaman.\n
+\t\t•	Tekanan darah menurun (shock).\n
+\t\t•	Kulit basah dan terasa dingin.\n
+\t\t•	Denyut nadi melemah.\n
+\t\t•	Frekuensi buang air kecil menurun dan jumlah urine yang keluar sedikit.\n
+\t\t•	Mulut kering.\n
+\t\t•	Sesak nafas atau pola napas tidak beraturan.\n
+\t\t•	Gagal jantung dan ginjal.\n
+\t\t•	Mengalami kebocoran plasma.\nPenanganan yang tepat dan cepat harus dilakukan ketika pengidap sudah mengalami DSS.\nJika tidak segera dilakukan penanganan, maka bisa mengakibatkan gangguan fungsi organ tubuh yang berujung pada kematian.\n
+ </string>
+    <string name="pencegahan_dbd">Terdapat berbagai upaya yang dapat dilakukan untuk mencegah demam berdarah, yaitu:\n
+\t\t•	Anak usia 9-16 tahun seharusnya divaksinasi dengue, sebanyak 3 kali dengan jarak 6 bulan.\n
+\t\t•	Memberantas sarang nyamuk yang dilakukan dalam dua kali pengasapan insektisida atau fogging dengan jarak 1 minggu.\n
+\t\t•	Menguras tempat penampungan air, seperti bak mandi, minimal setiap minggu.\n
+\t\t•	Menutup rapat tempat penampungan air.\n
+\t\t•	Melakukan daur ulang barang yang berpotensi menjadi tempat perkembangbiakan nyamuk Aedes aegypti.\n
+\t\t•	Mengatur cahaya yang cukup di dalam rumah.\n
+\t\t•	Memasang kawat anti nyamuk di ventilasi rumah.\n
+\t\t•	Menaburkan bubuk larvasida (abate) pada penampungan air yang sulit dikuras.\n
+\t\t•	Menggunakan kelambu saat tidur.\n
+\t\t•	Menanam tumbuhan pengusir nyamuk.\n
+\t\t•	Menghentikan kebiasaan menggantung pakaian.\n
+\t\t•	Menghindari wilayah daerah yang rentan terjadi infeksi.\n
+\t\t•	Mengenakan pakaian yang longgar.\n
+\t\t•	Menggunakan krim anti-nyamuk yang mengandung N-diethylmetatoluamide (DEET), tetapi jangan gunakan DEET pada anak di bawah 2 tahun.\nNamun, Organisasi Kesehatan Dunia (WHO) menyatakan bahwa pencegahan utama yang paling penting untuk terhindar dari penyakit DBD adalah membasmi penyebaran vektor-patogen dengan menghancurkan, mengubah, menghapus, atau mendaur ulang wadah yang menjadi tempat telur nyamuk bersarang.\nJika sudah melakukan pencegahan, tetapi demam berdarah masih menyerang dan mengganggu aktivitas sehari-hari, segera kunjungi dokter untuk meminta saran.\nPenanganan sedini mungkin akan membantu mencegah munculnya masalah-masalah yang lebih parah lagi.\n
+</string>
+    <string name="pengobatan_dbd">Pengobatan yang spesifik untuk mengobati demam berdarah saat ini belum ada. Pengobatan bertujuan untuk mengatasi gejala dan mencegah infeksi virus semakin memberat.\nBeberapa upaya yang dianjurkan dokter, yaitu:\n
+\t\t•	Banyak minum cairan agar terhindar dari dehidrasi.\n
+\t\t•	Cukup istirahat.\n
+\t\t•	Konsumsi obat penurun panas yang relatif aman dan dianjurkan dokter.\n
+\t\t•	Menghindari konsumsi obat-obatan pereda nyeri. Hal ini dikarenakan obat-obatan tersebut dapat menimbulkan komplikasi perdarahan.\n
+\t\t•	Pantau frekuensi buang air kecil dan jumlah urine yang keluar.
+</string>
+    <string name="penyebab_covid19">Penyebab utama kita terkena penyakit COVID-19 adalah infeksi virus corona (SARS-CoV-2) yang ditularkan dari orang pengidap penyakit tersebut, dengan menyentuh wajah, virus dapat masuk melalui lubang di wajah kita, kemudian bekerja di jaringan sel yang terdapat di paru-paru, menyebabkan kematian sel sel tersebut, dan kemudian menduplikasi diri untuk menyerang imun tubuh kita (menyebabkan imun menjadi agresif sehingga tidak bisa membedakan mana sel sehat dan sel yang terinfeksi).\nPenyebab kita dapat terinfeksi penyakit ini sbb:\n
+\t\t1.	Coronavirus hanya dapat ditularkan melalui tetesan air (droplets) yang dikeluarkan oleh orang sakit (air liur, percikan ludah saat berbicara, terkena nafas atau batuk)
+Note: virus corona tidak bisa tertular melalui keringat\n
+\t\t2.	Ketika kita menyentuh droplets tersebut, virus dapat masuk melalui hidung, mata, dan mulut\n
+Note: selama kita tidak menyentuh bagian tersebut setelah terkena virus, kita tidak akan bisa tertular dan virus akan hilang ketika kita cuci tangan\n
+\t\t3.	Kita dapat tertular jika minum minuman atau makan makanan bekas orang yang mengidap covid, atau menggunakan alat minum/makan bekas orang yang sakit.\n
+Note: selama kita mencuci alat tersebut terlebih dahulu dan kita mencuci tangan, perkakas tersebut akan bersih dari virus\n
+\t\t4.	Hal lainnya, virus dapat bertahan pada permukaan benda, dari beberapa jam hingga beberapa hari (tergantung bahan), jadi ketika kita menyentuh benda yang terpapar virus dan kemudian kita menyentuh wajah, kemungkinan kita akan terinfeksi virus\n
+Note: penelitian virus bertahan di udara masih belum pasti, asumsi sekitar 10 hingga 30 menit\n
+\t\t5.	Jika sudah terpapar, tubuh kita akan menimbulkan gejala-gejala seperti:\n
+\t\t\t\t\t\t1.	Batuk kering/Bersin\n
+\t\t\t\t\t\t2.	Demam\n
+\t\t\t\t\t\t3.	Kelelahan\n
+\t\t\t\t\t\t4.	Gangguan pernafasan\n
+\t\t6.	Jika kita merasa sehat dan masih memiliki imun yang bagus, cukup isolasi mandiri, pakai peralatan makan sendiri, cuci baju sendiri, dan hindari kontak fisik kepada siapapun selama 14 hari (masa inkubasi)\n
+\t\t7.	Jika gejala semakin memburuk, atau imun kita tidak dalam kondisi baik, barulah sebaiknya kita mengunjungi dokter. Gunakan masker wajah agar kita menghindari menyebarkan droplets ke orang lain.\n
+</string>
+    <string name="pengobatan_covid19">Beberapa hal yang kita dapat lakukan ketika kita sakit, baik itu mengidap covid atau penyakit lain adalah:\n
+\t\t1.	Berdiam diri di rumah, mengisolasi diri jika kita tinggal bersama dengan keluarga. Karena orang yang positif sekalipun tidak selalu harus ke dokter, kecuali kondisi memburuk atau sudah berusia lanjut.
+Jika kita merasa sehat dan masih memiliki imun yang bagus, cukup isolasi mandiri, pakai peralatan makan sendiri, cuci baju sendiri, dan hindari kontak fisik kepada siapapun selama 14 hari (masa inkubasi atau masa hidup virus tersebut).\n
+\t\t2.	Menghubungi pihak berwenang untuk memberikan informasi diri, sehingga dapat dilakukan tindakan lebih lanjut jika terjadi hal yang tidak diinginkan\n
+\t\t3.	Menghubungi semua anggota keluarga kita, serta teman atau kerabat yang pernah kita kunjungi setidaknya seminggu terakhir. Memberitahu jika kita mengalami gejala penyakit, sehingga orang yang kita kunjungi lebih waspada.\n
+\t\t4.	Menahan diri untuk tidak keluar rumah maupun bertemu orang lain, merawat diri sendiri dan barang barang yang kita pergunakan selama kita mengisolasi diri kita sendiri. Maupun menjaga pola makan dan pola hidup kita, karena tubuh yang sehat lebih kuat menangani penyakit.\n
+Beberapa hal yang kita dapat lakukan kita mengenal orang yang sedang mengidap penyakit:\n
+\t\t1.	Tidak menjauhinya, justru kita harus memberikan dukungan kepada mereka yang sedang mengidap penyakit, karena kita tidak boleh mendiskriminasi siapapun.\n
+\t\t2.	Membantu dia dalam perjuangannya, karena mungkin dia tidak dapat keluar rumah, kita dapat tetap membantu mereka yang sakit dengan memberikan bantuan, salah satunya bahan pokok. Kita dapat tetap membantu selama kita tidak melakukan kontak fisik dan menjaga jarak tubuh.\n
+\t\t3.	Mengetahui kabar mereka yang sedang sakit, jadi bilamana mereka tiba tiba jatuh sakit parah, kita dapat membantu dengan menelepon petugas kesehatan, yang kemudian selanjutnya akan ditangani oleh pihak berwenang.\n 
+</string>
+    <string name="pencegahan_covid19">Untuk menghindarkan diri kita dari terpapar virus corona, kita dapat melakukan hal-hal sederhana seperti berikut:\n
+\t\t1.	Mencuci tangan! Selalu cuci tangan sehabis bepergian atau memegang sesuatu yang kita tidak yakin apakah benda tersebut terpapar virus atau tidak.\nNote: cuci tangan dengan sabun dan air mengalir setidaknya 20 detik, gunakan metode mencuci tangan yang disarankan WHO.\nNote: utamakan mencuci tangan dan hindari penggunaan antiseptik secara terus menerus karena alkohol dapat merusak kulit.\n
+\t\t2.	Tidak keluar rumah kecuali memiliki urusan yang sangat penting sehingga kita harus keluar rumah, jika keluar rumah pastikan menggunakan masker\nNote: gunakan masker kain saja, karena sudah dianggap efektif hingga 70% dari kemungkinan terpapar virus, dan untuk mengurangi kelangkaan barang bagi mereka yang benar benar membutuhkan\n
+\t\t3.	Menghindari kerumunan orang dalam semua kondisi, jaga jarak minimal 1 meter karena cairan droplets tersebut dapat menyebar hingga 1 meter dari pengidap penyakit.\n
+\t\t4.	Gunakan sikut atau kaki untuk membuka pintu yang dilalui banyak orang (pintu minimarket, pintu rumah, dan sebagainya)\n
+\t\t5.	Tidak bersin atau batuk tanpa menghalanginya dengan sesuatu, paling sederhana adalah menutupnya dengan sikut/lengan bagian atas.\nNote: hindari batuk atau bersin ke permukaan tangan, karena tangan kita digunakan untuk memegang sesuatu yang kemudian dapat dipegang kembali oleh orang lain.\n
+\t\t6.	Terakhir, berdiam diri di rumah jika anda merasa tidak sehat dan batalkan seluruh kegiatan yang mengharuskan untuk keluar rumah.\n 
+</string>
 </resources>
