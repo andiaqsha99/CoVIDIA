@@ -138,13 +138,13 @@
     </LinearLayout>
 
         <ImageView
+            android:id="@+id/iv_out"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/exit"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_margin="10dp">
-
         </ImageView>
 
 

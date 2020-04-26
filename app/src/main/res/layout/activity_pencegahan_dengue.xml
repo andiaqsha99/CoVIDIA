@@ -10,17 +10,12 @@
 
     <include layout="@layout/layout_toolbar"/>
 
-    <VideoView
-        android:layout_width="match_parent"
-        android:layout_marginTop="32dp"
-        android:layout_height="300dp"/>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
         android:text="@string/pencegahan_dbd"
         android:textSize="20sp"
         android:padding="8dp"

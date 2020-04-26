@@ -19,6 +19,7 @@ class HomeActivity: AppCompatActivity(), View.OnClickListener {
         iv_covid.setOnClickListener (this)
         iv_dengue.setOnClickListener(this)
         btn_group.setOnClickListener(this)
+        iv_out.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -39,6 +40,9 @@ class HomeActivity: AppCompatActivity(), View.OnClickListener {
             }
             R.id.btn_group -> {
                 startActivity(Intent(this, GroupActivity::class.java))
+            }
+            R.id.iv_out -> {
+                onBackPressed()
             }
         }
     }
