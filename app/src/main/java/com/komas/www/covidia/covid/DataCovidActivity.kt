@@ -2,11 +2,10 @@ package com.komas.www.covidia.covid
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.komas.www.covidia.R
-import com.komas.www.covidia.data.response.DataCovid
+import com.komas.www.covidia.data.response.covid.DataCovid
 import kotlinx.android.synthetic.main.activity_data_covid.*
 import kotlinx.android.synthetic.main.layout_toolbar.*
 import java.text.SimpleDateFormat

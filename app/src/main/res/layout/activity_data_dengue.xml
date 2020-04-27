@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_12"
+    tools:context=".dengue.DataDengueActivity">
+
+    <include layout="@layout/layout_toolbar"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Data penyebaran DBD di Indonesia"
+        android:textSize="20sp"
+        android:fontFamily="@font/verdanab"
+        android:textColor="@android:color/black"
+        android:textAlignment="center"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:indeterminateTint="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        style="@style/Widget.AppCompat.ProgressBar"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/tv_title"
+        android:id="@+id/rv_province"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/item_province" />
+</RelativeLayout>

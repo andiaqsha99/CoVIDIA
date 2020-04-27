@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.komas.www.covidia.data.remote.NetworkConfig
-import com.komas.www.covidia.data.response.DataCovid
-import com.komas.www.covidia.data.response.DataResponse
+import com.komas.www.covidia.data.response.covid.DataCovid
+import com.komas.www.covidia.data.response.covid.DataResponse
 import io.reactivex.Observer
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable

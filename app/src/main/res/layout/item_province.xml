@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/colorSecondary"
+    app:cardCornerRadius="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <TextView
+            android:id="@+id/tv_province_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Province"
+            android:textSize="20sp"
+            android:fontFamily="@font/verdanab"
+            android:textColor="@color/colorAccent"/>
+        <TextView
+            android:id="@+id/txt_case"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_province_name"
+            android:text="Kasus: "
+            android:textSize="20sp"
+            android:fontFamily="@font/verdanab"
+            android:textColor="@color/colorAccent" />
+        <TextView
+            android:id="@+id/txt_death"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_case"
+            android:text="Meninggal: "
+            android:textSize="20sp"
+            android:fontFamily="@font/verdanab"
+            android:textColor="@color/colorAccent" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

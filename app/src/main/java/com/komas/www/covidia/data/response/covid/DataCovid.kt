@@ -1,4 +1,4 @@
-package com.komas.www.covidia.data.response
+package com.komas.www.covidia.data.response.covid
 
 import com.google.gson.annotations.SerializedName
 

@@ -15,4 +15,15 @@ object NetworkConfig {
     fun createService(): Api {
         return getNetwork().create(Api::class.java)
     }
+
+    private fun getNetworkDBD(): Retrofit =
+        Retrofit.Builder()
+            .baseUrl("https://fierce-anchorage-83457.herokuapp.com/")
+            .addConverterFactory(GsonConverterFactory.create())
+            .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+            .build()
+
+    fun createServiceDBD(): Api {
+        return getNetworkDBD().create(Api::class.java)
+    }
 }

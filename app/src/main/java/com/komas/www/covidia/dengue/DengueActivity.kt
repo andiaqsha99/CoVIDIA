@@ -16,7 +16,7 @@ class DengueActivity : AppCompatActivity() {
             startActivity(Intent(this, CallDengueActivity::class.java))
         }
         iv_data.setOnClickListener{
-
+            startActivity(Intent(this, DataDengueActivity::class.java))
         }
         iv_pencegahan.setOnClickListener{
             startActivity(Intent(this, PencegahanDengueActivity::class.java))
