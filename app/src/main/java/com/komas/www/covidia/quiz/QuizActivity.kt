@@ -174,15 +174,12 @@ class QuizActivity: AppCompatActivity() {
         when (currQuestion!!.getmRightAns()) {
             1 -> {
                 r1!!.setTextColor(Color.GREEN)
-                txtQuestion!!.text = "Jawaban anda benar"
             }
             2 -> {
                 r2!!.setTextColor(Color.GREEN)
-                txtQuestion!!.text = "Jawaban anda benar"
             }
             3 -> {
                 r3!!.setTextColor(Color.GREEN)
-                txtQuestion!!.text = "Jawaban anda benar"
             }
         }
 

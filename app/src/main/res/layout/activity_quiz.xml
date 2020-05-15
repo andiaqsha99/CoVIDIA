@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background_12">
 
     <TextView
         android:id="@+id/Score"
@@ -13,24 +13,23 @@
         android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/timeCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="00:20"
-        android:textSize="25sp"
         android:layout_centerHorizontal="true"
-        android:textColor="@android:color/black"
         android:padding="10dp"
-        android:id="@+id/timeCounter" />
+        android:text="00:20"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
 
     <TextView
+        android:id="@+id/questionCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:padding="10dp"
         android:text="Question  1/X"
-        android:textSize="18sp"
-        android:id="@+id/questionCount" />
-
+        android:textSize="18sp" />
 
 
     <TextView
@@ -47,27 +46,27 @@
         android:id="@+id/radioGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
         android:padding="10dp">
+
         <RadioButton
             android:id="@+id/radioButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option 1"
-            />
+            android:text="Option 1" />
+
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option 2"
-            />
+            android:text="Option 2" />
+
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option 2"
-            />
+            android:text="Option 2" />
 
     </RadioGroup>
 
@@ -76,10 +75,9 @@
         android:id="@+id/submitButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit"
         android:layout_alignParentBottom="true"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorSecondary"
+        android:text="Submit"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
-        />
+        android:textSize="20sp" />
 </RelativeLayout>

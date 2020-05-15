@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background_12">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:src="@drawable/quizlogo"
         android:layout_margin="16dp"
-        />
+        android:src="@drawable/quizlogo" />
 
     <TextView
         android:id="@+id/highscore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My HighScore:- 0"
-        android:gravity="center"
-        android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        />
+        android:gravity="center"
+        android:text="My HighScore:- 0"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/startButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start"
         android:layout_alignParentBottom="true"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorSecondary"
+        android:text="Start"
         android:textColor="@android:color/white"
-        android:textStyle="bold"
         android:textSize="20sp"
-        />
+        android:textStyle="bold" />
 </RelativeLayout>
