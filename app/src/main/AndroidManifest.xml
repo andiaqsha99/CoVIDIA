@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dengue.DataDengueActivity"></activity>
+        <activity android:name=".dengue.DataDengueActivity"/>
+        <activity android:name=".quiz.MainQuizDengueActivity"/>
+        <activity android:name=".quiz.QuizDengueActivity"/>
         <activity android:name=".covid.DataCovidActivity" />
         <activity android:name=".quiz.MainQuizActivity"/>
         <activity android:name=".quiz.QuizActivity"/>

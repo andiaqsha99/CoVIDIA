@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.komas.www.covidia.R
+import com.komas.www.covidia.quiz.MainQuizDengueActivity
 import kotlinx.android.synthetic.main.activity_dengue.*
 
 class DengueActivity : AppCompatActivity() {
@@ -28,7 +29,7 @@ class DengueActivity : AppCompatActivity() {
             startActivity(Intent(this, PenyebabDengueActivity::class.java))
         }
         iv_quiz.setOnClickListener{
-
+            startActivity(Intent(this, MainQuizDengueActivity::class.java))
         }
     }
 }

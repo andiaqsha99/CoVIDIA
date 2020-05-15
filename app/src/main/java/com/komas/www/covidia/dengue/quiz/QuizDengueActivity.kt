@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.komas.www.covidia.R
 import java.util.*
 
-class QuizActivity: AppCompatActivity() {
+class QuizDengueActivity: AppCompatActivity() {
 
     private var txtQuestion: TextView? = null
     private var txtScore: TextView? = null
@@ -44,6 +44,7 @@ class QuizActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_quiz)
+
         txtQuestion = findViewById(R.id.Question)
         txtScore = findViewById(R.id.Score)
         txtQuestionCount = findViewById(R.id.questionCount)
@@ -60,8 +61,7 @@ class QuizActivity: AppCompatActivity() {
         colorStateListCountDown = txtCounter!!.textColors
 
         val questionDb = DatabaseHelper(this)
-        questionSetsList = questionDb.questionSet.dropLast(7)
-
+        questionSetsList = questionDb.questionSet.drop(7)
         qCountTotal = questionSetsList!!.size
 
         Collections.shuffle(questionSetsList!!)
@@ -73,7 +73,7 @@ class QuizActivity: AppCompatActivity() {
                 if (r1!!.isChecked || r2!!.isChecked || r3!!.isChecked) {
                     check()
                 } else {
-                    Toast.makeText(this@QuizActivity, "Pilih jawaban terlebih dahulu", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@QuizDengueActivity, "Pilih jawaban terlebih dahulu", Toast.LENGTH_SHORT).show()
                 }
             } else {
                 showQuestion()
@@ -204,7 +204,7 @@ class QuizActivity: AppCompatActivity() {
         if (onBackPressedTime + 2000 > System.currentTimeMillis()) {
             finishQuizActivity()
         } else {
-            Toast.makeText(this@QuizActivity, "Press Back Again", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@QuizDengueActivity, "Press Back Again", Toast.LENGTH_SHORT).show()
         }
         onBackPressedTime = System.currentTimeMillis()
 

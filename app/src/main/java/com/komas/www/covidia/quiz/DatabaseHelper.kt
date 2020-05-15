@@ -89,6 +89,36 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
             "Virus corona dapat bertahan di benda yang tersentuh oleh orang yang mengidap covid-19",
             "Virus corona bisa bertahan di udara selama beberapa saat", 1)
         addQuestion(q7)
+        val q8 = Question("Manakah dari pernyataan berikut yang benar",
+            "Orang yang pernah terjangkit demam berdarah tidak akan pernah terjangkit kembali",
+            "Orang yang pernah terjangkit bisa terjangkit kembali oleh virus dengue berbeda",
+            "Orang yang pernah terjangkit bisa terjangkit kembali oleh virus dengue yang sama", 2)
+        addQuestion(q8)
+        val q9 = Question("Manakah cara penyebaran virus dengue yang benar?",
+            "Kontak fisik dengan orang yang terjangkit",
+            "Terkena bersin atau batuk orang yang sakit",
+            "Terkena gigitan nyamuk jenis aedes aegypti", 3)
+        addQuestion(q9)
+        val q10 = Question("Pada waktu apakah nyamuk aedes aegypti lebih sering mengigit manusia?",
+            "Siang hari", "Malam hari", "Sore Hari", 1)
+        addQuestion(q10)
+        val q11 = Question("Yang tidak termasuk dalam gejala yang ditimbulkan oleh demam berdarah adalah:",
+            "Nafsu makan menurun", "Batuk-batuk", "Mual dan muntah-muntah", 2)
+        addQuestion(q11)
+        val q12 = Question("Manakah hal yang tidak membantu untuk mengurangi kemungkinan terjangkit demam berdarah?",
+            "Membersihkan lingkungan sekitar", "Mendapatkan vaksin demam berdarah",
+            "Mengenakan pakaian terbuka", 3)
+        addQuestion(q12)
+        val q13= Question("Apakah yang harus kita hindari jika kita mengalami gejala demam berdarah?",
+            "Istirahat yang cukup",
+            "Aktivitas yang berat atau melelahkan",
+            "Mengkonsumsi banyak air mineral", 2)
+        addQuestion(q13)
+        val q14 = Question("Informasi yang tidak benar mengenai demam berdarah dari pilihan berikut ini adalah:",
+            "Parasetamol dapat digunakan sebagai obat bantu meredakan gejala demam berdarah",
+            "Jus daun pepaya dapat menghindarkan kita dari demam berdarah",
+            "Demam berdarah dapat menyerang manusia di segala umur", 2)
+        addQuestion(q14)
     }
 
     private fun addQuestion(qb: Question) {
