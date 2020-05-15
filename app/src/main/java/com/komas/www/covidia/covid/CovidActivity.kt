@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.komas.www.covidia.R
+import com.komas.www.covidia.quiz.MainQuizActivity
 import kotlinx.android.synthetic.main.activity_covid.*
 
 class CovidActivity : AppCompatActivity() {
@@ -29,7 +30,7 @@ class CovidActivity : AppCompatActivity() {
             startActivity(Intent(this, PenyebabCovidActivity::class.java))
         }
         iv_quiz.setOnClickListener{
-
+            startActivity(Intent(this, MainQuizActivity::class.java))
         }
     }
 }

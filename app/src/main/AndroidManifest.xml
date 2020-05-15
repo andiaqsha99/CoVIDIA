@@ -13,6 +13,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".dengue.DataDengueActivity"></activity>
         <activity android:name=".covid.DataCovidActivity" />
+        <activity android:name=".quiz.MainQuizActivity"/>
+        <activity android:name=".quiz.QuizActivity"/>
         <activity android:name=".dengue.PenyebabDengueActivity" />
         <activity android:name=".dengue.PengobatanDengueActivity" />
         <activity android:name=".dengue.PencegahanDengueActivity" />
